@@ -1,0 +1,272 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Helvetica. sans-serif;
+  line-height: 1.4;
+}
+
+header {
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 1rem;
+  height: 30rem;
+}
+
+nav.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 1rem 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: cadetblue;
+}
+
+
+nav img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+
+img {
+  border-style: none;
+}
+
+ul, menu, dir {
+  margin-right: 1rem;
+  display: block;
+}
+
+ul li {
+  display: inline;
+  padding: 0 1rem;
+}
+
+.truncated-menu {
+  display: none;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 960px;
+  margin: auto;
+}
+
+.main-banner {
+  background-color: white;
+  padding: 1.5rem 5rem;
+  display: inline-block;
+  margin-top: 10rem;
+  margin-right: .2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: .67em;
+  line-height: 1.2rem;
+}
+
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+}
+
+.service img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.service img.paper-icon {
+  width: 3.5rem;
+}
+
+.supporting-container {
+  display: flex;
+  justify-content: center;
+  max-width: 960px;
+  margin: auto;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.title {
+  background: cadetblue;
+  font-weight: bold;
+  color: white;
+  max-width: 10rem;
+  padding: .5rem 1.25rem;
+}
+
+.info p {
+  padding: 1rem 0px;
+}
+
+p {
+  display: block;
+}
+
+footer.container {
+  max-width: 960px;
+  margin: auto;
+  background: azure;
+  display: flex;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  nav.container {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  header {
+    padding-top: 0px;
+    height: 22rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-banner {
+  background-color: white;
+  padding: 0.75rem 4rem;
+  display: inline-block;
+  margin-top: 5rem;
+  margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  nav.container {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  header {
+    background-position: 20%;
+    padding-top: 0px;
+    height: 17rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .main-banner {
+  width: 100%;
+  padding: 0px 1rem;
+  margin-top: 9rem auto 0px;
+  text-align: center;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  h1 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+.supporting {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+.service {
+  height: auto;
+  font-size: .77rem;
+  margin: .77rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+header div span {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .menu ul.truncated-menu {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+.menu ul {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+.info {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+.info .title {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+.info p {
+    font-size: .77rem;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+footer {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+footer div {
+    display: none;
+  }
+}
